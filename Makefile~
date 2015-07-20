@@ -1,0 +1,6 @@
+cat Makefile  
+.SUFFIXES: .o .c  
+
+.c:   
+        cc -o $@ $<  
+        ./$@  
