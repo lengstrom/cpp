@@ -1,6 +1,8 @@
 #include <iostream>
+#include <vector>
 
 int main() {
-    std::cout << "Hello, world!" << std::endl;
-    return 0;
+    double a;
+    std::vector<double>::size_aatype nums = 3;
+    std::cout << nums;
 }
