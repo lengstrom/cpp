@@ -7,12 +7,7 @@ std::vector<double> return_vec() {
     return a;
 }
 
-void a_func(const std::vector<double> a){
-    return;
-}
-
 int main() {
     const std::vector<double> nums = return_vec();
-    a_func(nums);
     std::cout << nums[0];
 }
